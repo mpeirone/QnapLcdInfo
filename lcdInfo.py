@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import psutil, socket, re, threading, datetime, time, threading
+import psutil, socket, re, threading, datetime, time
 from qnapdisplay import QnapDisplay
 
 Lcd = QnapDisplay()
