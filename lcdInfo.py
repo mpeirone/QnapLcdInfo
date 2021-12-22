@@ -7,7 +7,7 @@ infoIndex=0
 t=None
 blankLcdTimeout=5;
 
-def getDataArray(network_regex="^eth|^enp"):
+def getDataArray(network_regex="^eth|^enp|^bond"):
         output = []
         output.append([socket.gethostname(),"Load(5m): "+ str(psutil.getloadavg()[1])])
         output.append(["Last boot:", datetime.datetime.fromtimestamp(psutil.boot_time()).strftime("%Y-%m-%d %H:%M:%S")])
