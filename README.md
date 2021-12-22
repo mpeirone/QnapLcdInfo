@@ -21,7 +21,7 @@ INSTALL
 sudo apt install python3 python3-pip git -y
 git clone https://github.com/mpeirone/QnapLcdInfo.git
 cd QnapLcdInfo
-sudo pip3 install requirement.txt
+sudo pip3 install -r requirements.txt
 chmod 775 lcdInfo.py
 ./lcdInfo.py
 ```
