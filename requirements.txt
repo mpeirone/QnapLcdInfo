@@ -1,2 +1,2 @@
-git+git://github.com/bkram/qnapdisplay.git
+git+https://github.com/bkram/qnapdisplay.git
 psutil
