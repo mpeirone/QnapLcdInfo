@@ -1,5 +1,5 @@
 #!/bin/bash
-path="~/.lcdInfo"
+path="$HOME/.lcdInfo"
 
 mkdir -p $path
 
